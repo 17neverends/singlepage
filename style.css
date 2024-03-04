@@ -307,22 +307,6 @@ ul {
 }
 
 
-#scrollToTopBtn {
-    position:fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 40px;
-    height: 40px;
-    padding-left: 0;
-    padding-right: 0;
-    background-color: #4bba5d;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    opacity: 0.6;
-}
 
 .step2, .step3 {
     display: none;
@@ -623,3 +607,19 @@ ul {
       background-color: white;
   } 
 
+#scrollToTopBtn {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #4bba5d;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+}
