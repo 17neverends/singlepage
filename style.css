@@ -401,6 +401,8 @@ ul {
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
     margin-left: 10px;
     margin-right: 10px;
 }
