@@ -135,6 +135,7 @@ input[type="text"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    padding: 0;
     width: 20px; 
     height: 20px;
     margin-bottom: 20px;
@@ -147,6 +148,7 @@ input[type="text"] {
 }
 
 #paymentCheckbox:checked {
+    padding: 0;
     background-color: #4caf50;
     border: 2px solid #4caf50;
     min-width: 20px;
@@ -154,6 +156,7 @@ input[type="text"] {
 
 #paymentCheckbox::before {
     content: '\2713';
+    padding: 0;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -548,6 +551,7 @@ ul {
   }
   
   input[type="checkbox"] {
+      padding: 0;
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
@@ -562,12 +566,14 @@ ul {
   }
   
   input[type="checkbox"]:checked {
+      padding: 0;
       background-color: #4caf50;
       border: 2px solid #4caf50;
       min-width: 20px;
   }
   
   input[type="checkbox"]::before {
+      padding: 0;
       content: '\2713';
       display: block;
       text-align: center;
